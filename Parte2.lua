@@ -9,8 +9,8 @@ local UserInputService = game:GetService("UserInputService")
 -- + ATAQUE AUTOMÁTICO (antes TP JUGADOR)
 -- ============================================
 
--- CARGA PARTE 1
-loadstring(game:HttpGet("https://pastebin.com/raw/pkk2QY2J"))()
+-- CARGA PARTE 1 (desde GitHub)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wordalastor04-dotcom/Yato-1/refs/heads/main/Parte1.lua"))()
 
 local t = 0
 while not _G.YatoHubLoaded and t < 15 do
